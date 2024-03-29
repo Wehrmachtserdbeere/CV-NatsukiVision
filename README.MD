@@ -6,7 +6,7 @@ Based on [Clearvision](https://github.com/ClearVision/ClearVision-v6) by [the Cl
 \
 **Natsuki**: The embodiment of pure delight and boundless happiness, also the epitome of joy, she symbolizes unending bliss and contentment.
 
-![Natsuki Smiling; Art by italy2003][natsuki_image.png]
+![Natsuki Smiling; Art by italy2003](natsuki_image.png)
 
 This theme takes her the center point, everything is Natsuki-themed, from the background to the User Popout. It replaces the usual, boring Discord Font to **DFPPOPCorn-W12**<sup><a href="#Footnote 1">1</a></sup>, which is the Font used in [Touhou 6: Embodiment of Scarlet Devil](https://en.wikipedia.org/wiki/Embodiment_of_Scarlet_Devil), and replaces the normal Discord Code Font to [**OCR A Extended**](https://learn.microsoft.com/en-us/typography/font-list/ocr-a-extended).
 
