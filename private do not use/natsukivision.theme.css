@@ -1,0 +1,166 @@
+/**
+ * @name NatsukiVision
+ * @author Strawberry
+ * @version 6.9.0
+ * @description The best background possible.
+ * @source https://github.com/Wehrmachtserdbeere/CV-NatsukiVision
+ * @website https://github.com/Wehrmachtserdbeere/CV-NatsukiVision
+ */
+
+@import url('https://clearvision.github.io/ClearVision-v6/main.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+
+@import url("https://discordstyles.github.io/SoftX/ServerRings.css");
+
+:root {
+  --main-color: #E62794;
+  --hover-color: #9F1E68;
+  --success-color: #349F34;
+  --danger-color: #FF0000;
+  --url-color: #00B3FF;
+  --background-image: url('https://i.imgur.com/w2ykimB.jpg');
+  --background-shading: 100%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 100%;
+  --background-saturation: 100%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 1px;
+  --background-overlay: rgb(84,0,80,0.32);
+  --user-popout-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-popout-position: center;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 2px;
+  --user-modal-image: url('https://clearvision.github.io/images/sapphire.jpg');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 100%;
+  --user-modal-saturation: 100%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 2px;
+  --home-icon: url('https://i.imgur.com/5Aegkr4.png');
+  --home-position: center;
+  --home-size: 56px;
+  --channel-unread: #00FF00;
+  --channel-color: rgb(255,255,255,1);
+  --muted-color: rgb(165,165,165,1);
+  --online-color: #43B581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  --main-font: DFPPOPCorn-W12;
+  --code-font: OCR A Extended;
+  --channels-width: 220px;
+  --members-width: 240px;
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+  --bd-blue: var(--main-color);
+  --bd-blue-hover: var(--hover-color);
+  --bd-blue-active: var(--hover-color);
+  --rs-small-spacing: 1px;
+  --rs-medium-spacing: 1px;
+  --rs-large-spacing: 1px;
+  --rs-small-width: 2.5px;
+  --rs-medium-width: 5px;
+  --rs-large-width: 5px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43B581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+}
+
+/* Any custom CSS below here */
+
+.typeWindows_e41dab>.wordmark__5b8c9:before {
+    content:"NatsukiVision";
+    color:rgba(255,0,255,.7);
+    font-size:14px;
+    text-shadow:0 0 3px #000
+}
+
+.theme-dark .container_ca50b9:before{
+    display: none;
+}
+
+.typeWindows__5fa63>.wordmark__0d178:after{
+    display: none;
+}
+
+.theme-dark .container_ca50b9:after{
+    display: none;
+}
+
+.standardSidebarView-E9Pc3j .sidebar-nqHbhN .side-1lrxIh .item-2GWPIy{
+  color: #ffffff;
+}
+
+.standardSidebarView__1129a .sidebar__9e3e2 .side_b4b3f6 .item__48dda {
+  color: #ffffff;
+}
+
+:root {
+  --server-unread-colour: 0, 255, 25;
+  --server-hover-colour: 255, 255, 255;
+  --server-selected-colour: var(--accent, 0, 231, 169);
+  --server-spacing: 10px;
+  --server-glow-intensity: 1;
+}
+
+#app-mount .listItem__48528 [class*=pill] .item_f9d377 {
+  height: 80% !important; /*Edit this to your required size, on my end this is a bit inside behind the Server*/
+  width: 80%; /*Keep this the same as height, or it will become an oval.*/
+  margin: 0;
+  margin-left: 3.5px; /*If you edit "border", "height", or "width", you HAVE to edit this, since they messes up the alignment!!*/
+  border-radius: var(--server-roundness, 50%); /*This should be the same as your Server Roundness if you changed it.*/
+  background: transparent;
+  border: 4px solid transparent; /*Make this as thick as you want. I have it thick so it doesn't disconnect when clicking on a Server, since the icon shrinks briefly.*/
+  box-shadow: none;
+  transform: none !important;
+  transition: var(--transition);
+  transition-property: box-shadow;
+}
+
+#app-mount .listItem__48528 [class*=pill] span[style*="height: 8"] {
+  box-shadow: 0 0 calc(var(--server-glow-intensity)* 15px) calc(var(--server-glow-intensity)* 5px) rgb(var(--server-unread-colour), 0.25);
+  border-color: rgb(var(--server-unread-colour));
+}
+
+#app-mount .listItem_fa7b36 [class*=pill] {
+  width: 47px;
+  height: 47px;
+  margin-left: -3px;
+}
+#app-mount .listItem_fa7b36 [class*=pill] .item_f9d377 {
+  border-width: 3px;
+}
