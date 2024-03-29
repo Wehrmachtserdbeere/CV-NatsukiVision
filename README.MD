@@ -36,6 +36,11 @@ If your bug is that the ServerRings are misaligned, please refer to the theme.cs
 
 ---
 
+### Licenses
+The theme uses three different licenses for separate parts of code. Make sure you read all three of them to make sure modifications/forks don't violate any of them.
+
+---
+
 ### Private Theme
 The theme labeled "Private Do Not Use" is explicitly designated for private <span style="color:#fff">use</span> and is <span style="color:red">**not**</span> intended for public utilization. Its purpose is solely for personal convenience and is deemed <span style="color:red">**unsuitable**</span> for public consumption. I must emphasize the imperative nature of refraining from employing the private theme. I <span style="color:red">**cannot**</span> assure its functionality if utilized outside of its intended personal context. Therefore, <span style="color:#fff">it</span> is reiterated that the private theme is <span style="color:red">**exclusively**</span> reserved for my personal use.
 
