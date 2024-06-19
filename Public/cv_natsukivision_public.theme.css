@@ -159,4 +159,9 @@
   box-shadow: 0 0 calc(var(--server-glow-intensity)* 15px) calc(var(--server-glow-intensity)* 5px) rgb(var(--server-unread-colour), 0.25);
   border-color: rgb(var(--server-unread-colour));
 }
+
+#gif-picker-tab-panel > div.header_b56bbc {
+  background-color: rgba(0,0,0,0);
+  box-shadow: 0 0 0px rgba(0,0,0,0);
+}
 /*The above lines have been edited*/

@@ -188,4 +188,9 @@
  #app-mount .listItem_c96c45 [class*=pill] .item_fd07a3 {
    border-width: 6px; /*Edit this to change the thickness of the Server Circle. Will mess up the "malign" part from above.*/
  }
+
+ #gif-picker-tab-panel > div.header_b56bbc {
+   background-color: rgba(0,0,0,0);
+   box-shadow: 0 0 0px rgba(0,0,0,0);
+ }
  /*The above lines have been edited*/
