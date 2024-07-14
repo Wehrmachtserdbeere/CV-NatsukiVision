@@ -165,10 +165,10 @@
    height: 90% !important; /*Edit this to your required size, on my end this is a bit inside behind the Server*/
    width: 90%; /*Keep this the same as height, or it will become an oval.*/
    margin: 0;
-   margin-left: -2.75px; /*If you edit "border", "height", or "width", you HAVE to edit this, since they messes up the alignment!!*/
+   margin-left: -1.8112px; /*If you edit "border", "height", or "width", you HAVE to edit this, since they messes up the alignment!!*/
    border-radius: var(--server-roundness, 50%); /*This should be the same as your Server Roundness if you changed it.*/
    background: transparent;
-   border: 8px solid transparent; /*Make this as thick as you want. I have it thick so it doesn't disconnect when clicking on a Server, since the icon shrinks briefly.*/
+   border: 7px solid transparent; /*Make this as thick as you want. I have it thick so it doesn't disconnect when clicking on a Server, since the icon shrinks briefly.*/
    box-shadow: none;
    transform: none !important;
    transition: var(--transition);
