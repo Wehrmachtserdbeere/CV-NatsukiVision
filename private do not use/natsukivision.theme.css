@@ -14,7 +14,7 @@
  */
 
  @import url('https://clearvision.github.io/ClearVision-v6/main.css');
- @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+ @import url('https://raw.githubusercontent.com/ClearVision/ClearVision-v6/gh-pages/main.css');
  @import url('https://nyri4.github.io/Discolored/main.css');
  
  @import url("https://discordstyles.github.io/SoftX/ServerRings.css");
@@ -156,19 +156,19 @@
  :root {
    --server-unread-colour: 0, 255, 25;
    --server-hover-colour: 255, 255, 255;
-   --server-selected-colour: var(--accent, 0, 231, 169);
+   --server-selected-colour: var(--accent, 0, 231, 105);
    --server-spacing: 10px;
    --server-glow-intensity: 1;
  }
  
- #app-mount .listItem_c96c45 [class*=pill] .item_fd07a3 {
+ #app-mount .listItem_c96c45 [class*=pill] .item_c4cd66 {
    height: 90% !important; /*Edit this to your required size, on my end this is a bit inside behind the Server*/
    width: 90%; /*Keep this the same as height, or it will become an oval.*/
    margin: 0;
-   margin-left: -0.75px; /*If you edit "border", "height", or "width", you HAVE to edit this, since they messes up the alignment!!*/
+   margin-left: -2.75px; /*If you edit "border", "height", or "width", you HAVE to edit this, since they messes up the alignment!!*/
    border-radius: var(--server-roundness, 50%); /*This should be the same as your Server Roundness if you changed it.*/
    background: transparent;
-   border: 4px solid transparent; /*Make this as thick as you want. I have it thick so it doesn't disconnect when clicking on a Server, since the icon shrinks briefly.*/
+   border: 8px solid transparent; /*Make this as thick as you want. I have it thick so it doesn't disconnect when clicking on a Server, since the icon shrinks briefly.*/
    box-shadow: none;
    transform: none !important;
    transition: var(--transition);
@@ -188,7 +188,7 @@
  #app-mount .listItem_c96c45 [class*=pill] .item_fd07a3 {
    border-width: 6px; /*Edit this to change the thickness of the Server Circle. Will mess up the "malign" part from above.*/
  }
-
+ 
  #gif-picker-tab-panel > div.header_b56bbc {
    background-color: rgba(0,0,0,0);
    box-shadow: 0 0 0px rgba(0,0,0,0);
