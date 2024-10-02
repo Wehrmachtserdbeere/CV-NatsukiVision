@@ -179,4 +179,9 @@
 #app-mount .footer_aa1bff {
   display: none;
 }
+
+#app-mount .unreadMentionsFixedFooter_fea3ef {
+  bottom: 0;
+}
+
 /*The above lines have been edited*/
