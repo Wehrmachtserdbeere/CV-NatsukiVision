@@ -193,4 +193,17 @@
    background-color: rgba(0,0,0,0);
    box-shadow: 0 0 0px rgba(0,0,0,0);
  }
+ 
+ /*Show full Bio in the Profile instead of only part of it*/
+ .descriptionClamp_abaf7d {
+   -webkit-line-clamp: unset;
+ }
+ .maxBioHeight_abaf7d {
+   max-height: unset;
+ }
+ 
+ #app-mount .footer_aa1bff {
+   display: none;
+ }
+ 
  /*The above lines have been edited*/
