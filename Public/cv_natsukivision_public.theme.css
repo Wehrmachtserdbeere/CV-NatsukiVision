@@ -176,7 +176,7 @@
 }
 
 /* Delete the "Discovery" area because it's now fixed to the bottom of the screen >:(*/
-#app-mount .footer_aa1bff {
+#app-mount .footer_f8ec41 {
   display: none;
 }
 
