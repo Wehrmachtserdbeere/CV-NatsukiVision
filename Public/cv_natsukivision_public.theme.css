@@ -10,7 +10,7 @@
 
 /*
  * As per Apache 2.0 License requirement, comments will be added above or below edited portions.
- * The above lines have been edited
+ * The above lines have been edited, as well as the one directly below
  */
 
  @import url('https://clearvision.github.io/ClearVision-v6/main.css');
@@ -176,7 +176,7 @@
 }
 
 /* Delete the "Discovery" area because it's now fixed to the bottom of the screen >:(*/
-#app-mount .footer_f8ec41 {
+#app-mount .footer_d71945 {
   display: none;
 }
 
@@ -184,4 +184,4 @@
   bottom: 0;
 }
 
-/*The above lines have been edited*/
+/*The above lines, as well as the current one, have been edited*/
