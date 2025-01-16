@@ -27,9 +27,9 @@
   /*The above lines have been edited*/
   --danger-color: #FF0000;
   --url-color: #00B3FF;
-  /*The below line of code includes protected artwork. Commercial distribution is now allowed, and credits to the artist (italy2003) must be given.*/
+  /*The below line of code includes protected artwork. Commercial distribution is not allowed, and credits to the artist (italy2003) must be given.*/
   --background-image: url('https://i.imgur.com/IebcgFH.jpeg');
-  /*The above line of code includes protected artwork. Commercial distribution is now allowed, and credits to the artist (italy2003) must be given.*/
+  /*The above line of code includes protected artwork. Commercial distribution is not allowed, and credits to the artist (italy2003) must be given.*/
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
@@ -55,9 +55,9 @@
   --user-popout-invert: 0%;
   /*The below lines have been edited*/
   --user-popout-blur: 2px;
-  /*The below line of code includes protected artwork. Commercial distribution is now allowed, and credits to the artist (italy2003) must be given.*/
+  /*The below line of code includes protected artwork. Commercial distribution is not allowed, and credits to the artist (italy2003) must be given.*/
   --user-modal-image: url('https://i.imgur.com/IebcgFH.jpeg');
-  /*The above line of code includes protected artwork. Commercial distribution is now allowed, and credits to the artist (italy2003) must be given.*/
+  /*The above line of code includes protected artwork. Commercial distribution is not allowed, and credits to the artist (italy2003) must be given.*/
   /*The above lines have been edited*/
   --user-modal-position: center;
   --user-modal-size: cover;
@@ -70,9 +70,9 @@
   --user-modal-invert: 0%;
   /*The below lines have been edited*/
   --user-modal-blur: 2px;
-  /*The below line of code includes protected artwork. Commercial distribution is now allowed, and credits to the artist (italy2003) must be given.*/
+  /*The below line of code includes protected artwork. Commercial distribution is not allowed, and credits to the artist (italy2003) must be given.*/
   --home-icon: url('https://i.imgur.com/5Aegkr4.png');
-  /*The above line of code includes protected artwork. Commercial distribution is now allowed, and credits to the artist (italy2003) must be given.*/
+  /*The above line of code includes protected artwork. Commercial distribution is not allowed, and credits to the artist (italy2003) must be given.*/
   /*The above lines have been edited*/
   --home-position: center;
   --home-size: 56px;
@@ -214,6 +214,10 @@
 #app-mount .reactionBtn_ec6b19.forceShow_ec6b19
 {
   opacity: 0.5;
+}
+
+.listItem_c96c45 {
+    margin-top: 7px;
 }
 
 /*The above lines, as well as the current one, have been edited*/
