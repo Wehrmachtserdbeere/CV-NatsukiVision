@@ -126,7 +126,7 @@
  /* Any custom CSS below here */
  /*The below lines have been edited*/
  
- .typeWindows_a934d8>.wordmark_a934d8:before {
+ .typeWindows__421ed>.wordmark__421ed:before {
      content:"NatsukiVision";
      color:rgba(255,0,255,.7);
      font-size:14px;
@@ -137,7 +137,7 @@
      display: none;
  }
  
- .typeWindows_a934d8>.wordmark_a934d8:after{
+ .typeWindows__421ed>.wordmark__421ed:after{
      display: none;
  }
  
