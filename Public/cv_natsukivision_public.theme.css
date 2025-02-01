@@ -180,7 +180,8 @@
   display: none;
 }
 
-#app-mount .unreadMentionsFixedFooter_fea3ef {
+/* Fix the "Unread Mentions" area to the bottom of the server list */
+#app-mount .unreadMentionsIndicatorBottom_ef3116 {
   bottom: 0;
 }
 
