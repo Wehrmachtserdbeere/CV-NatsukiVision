@@ -229,5 +229,9 @@
    background: none !important;
    background-color: rgba(0,0,0,0.25) !important;
  }
+
+ .visual-refresh .panels_c48ade {
+   background: rgb(0,0,0,0.32);
+ }
  
  /*The above lines, as well as the current one, have been edited*/
