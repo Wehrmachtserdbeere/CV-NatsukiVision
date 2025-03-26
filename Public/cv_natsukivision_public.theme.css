@@ -163,10 +163,6 @@
      display: none;
  }
  
- .typeWindows__421ed>.wordmark__421ed:after{
-     display: none;
- }
- 
  .theme-dark .container_b2ca13:after{
      display: none;
  }
@@ -202,6 +198,10 @@
  }
  .maxBioHeight_abaf7d {
    max-height: unset;
+ }
+
+ .item__58105 {
+   width: 12px;
  }
  
  /* Delete the "Discovery" area because it's now fixed to the bottom of the screen >:(*/

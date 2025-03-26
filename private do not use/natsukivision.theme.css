@@ -211,6 +211,10 @@
    max-height: unset;
  }
  
+ .item__58105 {
+   width: 12px;
+ }
+ 
  /* Delete the "Discovery" area because it's now fixed to the bottom of the screen >:(*/
  #app-mount .footer__214dc {
    display: none;
