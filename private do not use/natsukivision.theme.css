@@ -160,10 +160,10 @@
  /*The below lines have been edited*/
  
  .leading_c38106::before {
-     content:"NatsukiVision";
-     color:rgba(255,0,255,.7);
-     font-size:14px;
-     text-shadow:0 0 3px #000
+   content:"NatsukiVision" !important;
+   color:rgba(255,0,255,.7);
+   font-size:14px;
+   text-shadow:0 0 3px #000
  }
  
  .theme-dark .container_b2ca13:before{
