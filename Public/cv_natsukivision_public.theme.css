@@ -2,7 +2,7 @@
 /**
  * @name NatsukiVision
  * @author Strawberry
- * @version 6.9.0
+ * @version 6.9.1
  * @description The best background possible.
  * @source https://github.com/Wehrmachtserdbeere/CV-NatsukiVision
  * @website https://github.com/Wehrmachtserdbeere/CV-NatsukiVision
@@ -15,7 +15,9 @@
 
  @import url("https://clearvision.github.io/ClearVision-v7/main.css");
  @import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
- @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+ 
+ /* Disabled as of May 1st 2025 - ServerColumns is currently broken. */
+ /*@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");*/
  
  :root {
    /*The following lines have been edited*/
@@ -33,12 +35,12 @@
    --url-color: #00B3FF;
    /*The below line of code includes protected artwork. Commercial distribution is not allowed, and credits to the artist (italy2003) must be given.*/
    --background-image: url('https://i.imgur.com/IebcgFH.jpeg');
+   /*The above line of code includes protected artwork. Commercial distribution is not allowed, and credits to the artist (italy2003) must be given.*/
    --background-attachment: fixed;
    --user-popout-image: var(--background-image);
    --user-popout-attachment: var(--background-attachment);
    --user-modal-image: var(--background-image);
    --user-modal-attachment: var(--background-attachment);
-   /*The above line of code includes protected artwork. Commercial distribution is not allowed, and credits to the artist (italy2003) must be given.*/
    --background-shading: 100%;
    --background-position: center;
    --background-size: cover;
@@ -163,6 +165,10 @@
      display: none;
  }
  
+ .typeWindows__421ed>.wordmark__421ed:after{
+     display: none;
+ }
+ 
  .theme-dark .container_b2ca13:after{
      display: none;
  }
@@ -194,12 +200,12 @@
  
  /*Show full Bio in the Profile instead of only part of it*/
  .descriptionClamp_f5f93a {
-   -webkit-line-clamp: unset;
+   --webkit-line-clamp: unset;
  }
- .maxBioHeight_abaf7d {
+ .maxBioHeight_f5f93a {
    max-height: unset;
  }
-
+ 
  .item__58105 {
    width: 12px;
    background-color: #00ff00
@@ -220,17 +226,18 @@
    opacity: 0.5;
  }
  
+ /* Server inside folder */
  .listItem__650eb
  {
    margin-top: 7px;
  }
- 
+
  .container__37e49
  {
    background: none !important;
    background-color: rgba(0,0,0,0.25) !important;
  }
-
+ 
  .visual-refresh .panels_c48ade {
    background: rgb(0,0,0,0.32);
  }

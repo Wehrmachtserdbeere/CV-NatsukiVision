@@ -2,7 +2,7 @@
 /**
  * @name NatsukiVision
  * @author Strawberry
- * @version 6.9.0
+ * @version 6.9.1
  * @description The best background possible.
  * @source https://github.com/Wehrmachtserdbeere/CV-NatsukiVision
  * @website https://github.com/Wehrmachtserdbeere/CV-NatsukiVision
@@ -15,7 +15,9 @@
 
  @import url("https://clearvision.github.io/ClearVision-v7/main.css");
  @import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
- @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
+ 
+ /* Disabled as of May 1st 2025 - ServerColumns is currently broken. */
+ /*@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");*/
  
  :root {
    /*The following lines have been edited*/
@@ -205,9 +207,9 @@
  
  /*Show full Bio in the Profile instead of only part of it*/
  .descriptionClamp_f5f93a {
-   -webkit-line-clamp: unset;
+   --webkit-line-clamp: unset;
  }
- .maxBioHeight_abaf7d {
+ .maxBioHeight_f5f93a {
    max-height: unset;
  }
  
@@ -231,11 +233,12 @@
    opacity: 0.5;
  }
  
+ /* Server inside folder */
  .listItem__650eb
  {
    margin-top: 7px;
  }
- 
+
  .container__37e49
  {
    background: none !important;
@@ -245,5 +248,10 @@
  .visual-refresh .panels_c48ade {
    background: rgb(0,0,0,0.32);
  }
+
+ /* Remove top watermark*/
+  .title__85643 {
+    display: none !important;
+  }
  
  /*The above lines, as well as the current one, have been edited*/
