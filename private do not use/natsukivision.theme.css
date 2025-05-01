@@ -2,7 +2,7 @@
 /**
  * @name NatsukiVision
  * @author Strawberry
- * @version 6.9.1
+ * @version 6.9.2
  * @description The best background possible.
  * @source https://github.com/Wehrmachtserdbeere/CV-NatsukiVision
  * @website https://github.com/Wehrmachtserdbeere/CV-NatsukiVision
@@ -15,9 +15,7 @@
 
  @import url("https://clearvision.github.io/ClearVision-v7/main.css");
  @import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
- 
- /* Disabled as of May 1st 2025 - ServerColumns is currently broken. */
- /*@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");*/
+ @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css");
  
  :root {
    /*The following lines have been edited*/
