@@ -2,7 +2,7 @@
 /**
  * @name NatsukiVision
  * @author Strawberry
- * @version 6.9.2
+ * @version 6.9.3
  * @description The best background possible.
  * @source https://github.com/Wehrmachtserdbeere/CV-NatsukiVision
  * @website https://github.com/Wehrmachtserdbeere/CV-NatsukiVision
@@ -92,7 +92,7 @@
    --muted-color: rgb(165,165,165,1);
    /*The below lines have been edited*/
    --main-font: DFPPOPCorn-W12;
-   --code-font: OCR A Extended;
+   --code-font: VT323;
    --background-filter: rgba(0, 0, 0, 0);
    --user-popout-filter: var(--background-filter);
    --user-modal-filter: var(--background-filter);
@@ -245,6 +245,10 @@
  
  .visual-refresh .panels_c48ade {
    background: rgb(0,0,0,0.32);
+ }
+
+ .content_e9e3ed {
+  background: rgb(0,0,0,0.0);
  }
 
  /* Remove top watermark*/
