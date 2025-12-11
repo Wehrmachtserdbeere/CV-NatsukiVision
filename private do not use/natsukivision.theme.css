@@ -52,6 +52,11 @@
    /*The below lines have been edited*/
    --background-blur: 1px;
    --background-overlay: rgb(84,0,80,0.32);
+   /* CHANNEL COLORS */
+   --channel-normal: var(--interactive-text-default); /* channel text color [default: var(--interactive-text-default)] */
+   --channel-muted: var(--interactive-muted); /* muted channel text color [default: var(--interactive-muted)] */
+   --channel-hover: var(--interactive-text-hover); /* hovered channel text color [default: var(--interactive-text-hover)] */
+   --channel-selected: var(--interactive-text-active); /* selected channel text color [default: var(--interactive-text-active)] */
    /*The above lines have been edited*/
    --user-popout-position: center;
    --user-popout-size: cover;
