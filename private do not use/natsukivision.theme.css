@@ -139,7 +139,7 @@
  
  /* DARK THEME - NEW UI EXCLUSIVE */
  :is(.theme-darker, .theme-light .theme-darker) {
-   --background-shading: rgba(0, 0, 0, 0.6);
+   --background-shading: rgba(0, 0, 0, 0.3);
    --background-shading-percent: 100%;
    --card-shading: rgba(0, 0, 0, 0.4);
    --popout-shading: rgba(0, 0, 0, 0.7);
@@ -151,7 +151,7 @@
  
  /* MIDNIGHT THEME - NEW UI EXCLUSIVE */
  :is(.theme-midnight, .theme-light .theme-midnight) {
-   --background-shading: rgba(0, 0, 0, 0);
+   --background-shading: rgba(0, 0, 0, 0.3);
    --background-shading-percent: 0%;
    --card-shading: rgba(0, 0, 0, 0);
    --popout-shading: rgba(0, 0, 0, 0);
